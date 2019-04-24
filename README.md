@@ -33,8 +33,8 @@ gradlew legacyJar
 2. Stop codeBamer ALM instance.
 3. Copy the following files to CODEBEAMER_HOME/tomcat/webapps/cb/WEB-INF/lib
   * ImageGenPlugin-intland.jar (Source: [/dist/legacy/ImageGenPlugin-intland.jar](./dist/legacy/ImageGenPlugin-intland.jar))
-  * graph-snipsnap.jar (Source: [/lib/graph-snipsnap.jar](./lib/graph-snipsnap.jar)
-  * sequence.jar (Source: [/lib/sequence.jar](./lib/sequence.jar)
+  * graph-snipsnap.jar (Source: [/lib/graph-snipsnap.jar](./lib/graph-snipsnap.jar))
+  * sequence.jar (Source: [/lib/sequence.jar](./lib/sequence.jar))
 4. Restart codeBeamer ALM.
 
 ## Roll back to default version
