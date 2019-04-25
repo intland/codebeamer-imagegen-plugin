@@ -1,10 +1,10 @@
 # Project Title
 
-JSPWiki ImageGen plugin for codeBeamer
+JSPWiki ImageGen library for codeBeamer
 
 ## Getting Started
 
-This repository contains the source code for our customized version of [ImageGen plugin](https://www.ecyrd.com/JSPWiki/wiki/ImageGen) used in codeBeamer ALM.
+This repository contains the source code for our customized version of [ImageGen library](https://www.ecyrd.com/JSPWiki/wiki/ImageGen) used in codeBeamer ALM.
 
 ### Building
 
@@ -14,7 +14,7 @@ Use gradle to build the project:
 gradlew jar
 ```
 
-The command generates the JAR file in the **build\libs** directory. Default build creates a version of this plugin, which does not include the following JSPWiki plugins: 
+The command generates the JAR file in the **build\libs** directory. Default build creates a version of this library, which does not include the following JSPWiki plugins: 
 - Horizontal Graph
 - Vertical Graph
 - Directed Acyclic Graph
