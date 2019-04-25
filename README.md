@@ -11,15 +11,15 @@ This repository contains the source code for our customized version of [ImageGen
 Use gradle to build the project:
 
 ```
-gradlew build
+gradlew jar
 ```
 
-Default build creates a version of this plugin, which does not include the following JSPWiki plugins: 
+The command generates the JAR file in the **build\libs** directory. Default build creates a version of this plugin, which does not include the following JSPWiki plugins: 
 - Horizontal Graph
 - Vertical Graph
 - Directed Acyclic Graph
 - Explorer Graph
-- Mindmap
+- Mindmap 
 
 Use the following command to build a legacy version, which INCLUDES the aforementioned plugins:
 
