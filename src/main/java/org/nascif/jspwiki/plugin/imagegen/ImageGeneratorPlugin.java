@@ -165,7 +165,7 @@ public abstract class ImageGeneratorPlugin implements WikiPlugin {
 
     StringBuffer buf = new StringBuffer();
     buf.append("<p class='error'>").append(m_rootName).append(" failed: ");
-    buf.append(msg).append("</p><br/>");
+    buf.append(StringEscapeUtils.escapeHtml(msg)).append("</p><br/>");
     if (m_debug) {
       StringWriter sw = new StringWriter();
       PrintWriter pw = new PrintWriter(sw, true);
